@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@deepgram/sdk": "^3.9.0",
     "@google/generative-ai": "^0.2.1",
+    "microphone-stream": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
