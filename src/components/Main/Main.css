@@ -202,3 +202,14 @@
     border-radius: 10px;
     border: 1px solid #e0e0e0;
 }
+
+.text-to-speech {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
