@@ -113,3 +113,9 @@ Contributions to improve Kaira AI are welcome. Please follow these steps:
 
 - This project uses the Gemini AI model from Google
 - Icons and assets from official gemini site
+
+## Additional Information
+
+- This project is being built for a hackathon conducted by Finite Loop Club , A coding club of NMAMIT.
+- Name of the Hackathon is HACKLOOP(2024).
+- Stay tuned for further Updates regarding our progress in the HACKLOOP.
