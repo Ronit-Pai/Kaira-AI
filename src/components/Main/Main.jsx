@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
@@ -43,6 +43,36 @@ const Main = () => {
             alert('Could not transcribe audio. Please try again.');
         }
     };
+
+    // Add this new state for GitHub profile images
+    const [teamProfiles, setTeamProfiles] = useState({
+        'Madvith-d': null,
+        'Ronit-Pai': null,
+        'mpriaanka': null,
+        'Ashil07': null
+    });
+
+    // Add this useEffect to fetch GitHub profile images
+    useEffect(() => {
+        const fetchGitHubProfiles = async () => {
+            const profiles = { ...teamProfiles };
+            for (let username of Object.keys(profiles)) {
+                try {
+                    const response = await fetch(`https://api.github.com/users/${username}`);
+                    const data = await response.json();
+                    profiles[username] = data.avatar_url;
+                } catch (error) {
+                    console.error(`Error fetching profile for ${username}:`, error);
+                    profiles[username] = assets.user_icon; // Fallback to default icon
+                }
+            }
+            setTeamProfiles(profiles);
+        };
+
+        if (showTeamInfo) {
+            fetchGitHubProfiles();
+        }
+    }, [showTeamInfo]);
 
     return (
         <div className='main'>
@@ -135,7 +165,11 @@ const Main = () => {
                             </div>
                             <div className="team-cards">
                                 <div className="team-card">
-                                    <img src={assets.user_icon} alt="Profile" />
+                                    <img 
+                                        src={teamProfiles['Madvith-d'] || assets.user_icon} 
+                                        alt="Profile" 
+                                        onError={(e) => e.target.src = assets.user_icon}
+                                    />
                                     <div className="team-card-content">
                                         <h4>Madvith</h4>
                                         <a href="https://github.com/Madvith-d" target="_blank" rel="noopener noreferrer">
@@ -144,7 +178,11 @@ const Main = () => {
                                     </div>
                                 </div>
                                 <div className="team-card">
-                                    <img src={assets.user_icon} alt="Profile" />
+                                    <img 
+                                        src={teamProfiles['Ronit-Pai'] || assets.user_icon} 
+                                        alt="Profile"
+                                        onError={(e) => e.target.src = assets.user_icon}
+                                    />
                                     <div className="team-card-content">
                                         <h4>Ronit Pai</h4>
                                         <a href="https://github.com/Ronit-Pai" target="_blank" rel="noopener noreferrer">
@@ -153,7 +191,11 @@ const Main = () => {
                                     </div>
                                 </div>
                                 <div className="team-card">
-                                    <img src={assets.user_icon} alt="Profile" />
+                                    <img 
+                                        src={teamProfiles['mpriaanka'] || assets.user_icon} 
+                                        alt="Profile"
+                                        onError={(e) => e.target.src = assets.user_icon}
+                                    />
                                     <div className="team-card-content">
                                         <h4>Priaanka</h4>
                                         <a href="https://github.com/mpriaanka" target="_blank" rel="noopener noreferrer">
@@ -162,7 +204,11 @@ const Main = () => {
                                     </div>
                                 </div>
                                 <div className="team-card">
-                                    <img src={assets.user_icon} alt="Profile" />
+                                    <img 
+                                        src={teamProfiles['Ashil07'] || assets.user_icon} 
+                                        alt="Profile"
+                                        onError={(e) => e.target.src = assets.user_icon}
+                                    />
                                     <div className="team-card-content">
                                         <h4>Ashil</h4>
                                         <a href="https://github.com/Ashil07" target="_blank" rel="noopener noreferrer">
