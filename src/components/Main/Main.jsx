@@ -78,12 +78,16 @@ const Main = () => {
         <div className='main'>
             <div className="nav">
                 <p>Kaira-AI</p>
-                <img 
-                    src={assets.team_icon} 
-                    alt="Team" 
+                <button 
+                    className="team-button"
                     onClick={handleTeamInfoClick}
-                    className="nav-team-icon"
-                />
+                >
+                    <img 
+                        src={assets.team_icon} 
+                        alt="Team"
+                    />
+                    Team
+                </button>
             </div>
             <div className="main-container">
                 {showResult ? (
