@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background: linear-gradient(135deg, #4b90ff, #ff5546);
+    background: linear-gradient(135deg, #00FFFF, #FF00FF);
     color: white;
     padding: 8px 16px;
     border-radius: 20px;
