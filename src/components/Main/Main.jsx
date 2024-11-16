@@ -123,7 +123,7 @@ const Main = () => {
                 ) : (
                     <>
                         <div className="greet">
-                            <p><span>Hello There!.</span></p>
+                            <p><span>Hey There!!!</span></p>
                             <p>How can I help you today?</p>
                         </div>
                         <div className="cards">
