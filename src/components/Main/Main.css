@@ -188,6 +188,8 @@
 
 .chat-item-content {
     margin-left: 40px;
+    position: relative;
+    padding-bottom: 30px;
 }
 
 .user .chat-item-content {
@@ -212,6 +214,18 @@
     justify-content: center;
     width: 24px;
     height: 24px;
+}
+
+.text-to-speech img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.text-to-speech img:hover {
+    opacity: 1;
 }
 
 .team-info {

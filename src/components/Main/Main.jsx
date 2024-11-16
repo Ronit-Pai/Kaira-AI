@@ -95,7 +95,9 @@ const Main = () => {
                                     ) : (
                                         <>
                                             <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
-                                            <TextToSpeech text={item.content.replace(/<[^>]*>/g, '')} />
+                                            <div className="text-to-speech">
+                                                <TextToSpeech text={item.content.replace(/<[^>]*>/g, '')} />
+                                            </div>
                                         </>
                                     )}
                                 </div>
