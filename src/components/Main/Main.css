@@ -68,7 +68,7 @@
     padding: 20px;
 }
 .greet span {
-    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    background: -webkit-linear-gradient(16deg, #00FFFF, #FF00FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
