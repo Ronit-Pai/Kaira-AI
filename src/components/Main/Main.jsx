@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
+import AudioRecorder from '../AudioRecorder/AudioRecorder'
+import TextToSpeech from '../TextToSpeech/TextToSpeech'
 
 const Main = () => {
     const {
@@ -26,6 +28,16 @@ const Main = () => {
         setInput(prompt);
     };
 
+    const handleTranscription = (transcription) => {
+        if (transcription) {
+            setInput(transcription);
+            onSent(transcription);
+        } else {
+            // Handle empty transcription
+            alert('Could not transcribe audio. Please try again.');
+        }
+    };
+
     return (
         <div className='main'>
             <div className="nav">
@@ -45,7 +57,10 @@ const Main = () => {
                                     {item.type === 'user' ? (
                                         <p>{item.content}</p>
                                     ) : (
-                                        <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
+                                        <>
+                                            <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
+                                            <TextToSpeech text={item.content.replace(/<[^>]*>/g, '')} />
+                                        </>
                                     )}
                                 </div>
                             </div>
@@ -89,6 +104,7 @@ const Main = () => {
                             placeholder='Enter a prompt here' 
                         />
                         <div>
+                            <AudioRecorder onTranscriptionComplete={handleTranscription} />
                             {input && <img onClick={() => onSent()} src={assets.send_icon} width={30} alt="" />}
                         </div>
                     </div>
