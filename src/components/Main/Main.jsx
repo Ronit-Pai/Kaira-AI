@@ -92,9 +92,41 @@ const Main = () => {
                             {input && <img onClick={() => onSent()} src={assets.send_icon} width={30} alt="" />}
                         </div>
                     </div>
-                    <p className="bottom-info">
-                        Made by team INNOV8ORS nmamit 
+                    <p 
+                        className="bottom-info"
+                        onClick={handleTeamInfoClick}
+                        style={{ cursor: 'pointer', color: 'blue', textDecoration: 'underline' }}
+                    >
+                        Made by team INNOV8ORS nmamit
                     </p>
+
+                    {showTeamInfo && (
+                        <div className="team-info">
+                            <h3>Team Members:</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Madvith-d" target="_blank" rel="noopener noreferrer">
+                                        Madvith
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Ronit-Pai" target="_blank" rel="noopener noreferrer">
+                                        Ronit Pai
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/mpriaanka" target="_blank" rel="noopener noreferrer">
+                                        Priaanka
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Ashil07" target="_blank" rel="noopener noreferrer">
+                                        Ashil
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
