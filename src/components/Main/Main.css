@@ -13,8 +13,11 @@
     color: #585858;
 }
 .main .nav img{
-    width: 40px;
-    border-radius: 50%;
+    width: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0.6;
 }
 .main-container {
     max-width: 900px;
@@ -376,5 +379,9 @@
 .close-button-text:hover {
     opacity: 1;
     background-color: #f0f4f9;
+    transform: scale(1.1);
+}
+
+.main .nav .nav-team-icon:hover {
     transform: scale(1.1);
 }

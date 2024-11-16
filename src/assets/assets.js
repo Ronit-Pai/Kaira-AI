@@ -15,6 +15,7 @@ import send_icon from './send_icon.png'
 import gemini_icon from './gemini_icon.png'
 import speaker_icon from './speaker_icon.png'
 import close_icon from './close_icon.png'
+import team_icon from './team_icon.png'
 
 export const assets = {
     history_icon,
@@ -33,5 +34,6 @@ export const assets = {
     send_icon,
     gemini_icon,
     speaker_icon,
-    close_icon
+    close_icon,
+    team_icon
 }
