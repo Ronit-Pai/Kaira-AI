@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
@@ -14,6 +14,12 @@ const Main = () => {
         input,
         chatHistory
     } = useContext(Context);
+
+    const [showTeamInfo, setShowTeamInfo] = useState(false);
+
+    const handleTeamInfoClick = () => {
+        setShowTeamInfo(!showTeamInfo);
+    };
 
     // Example prompts array for better maintainability
     const examplePrompts = [
@@ -118,29 +124,53 @@ const Main = () => {
 
                     {showTeamInfo && (
                         <div className="team-info">
-                            <h3>Team Members:</h3>
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/Madvith-d" target="_blank" rel="noopener noreferrer">
-                                        Madvith
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/Ronit-Pai" target="_blank" rel="noopener noreferrer">
-                                        Ronit Pai
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/mpriaanka" target="_blank" rel="noopener noreferrer">
-                                        Priaanka
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/Ashil07" target="_blank" rel="noopener noreferrer">
-                                        Ashil
-                                    </a>
-                                </li>
-                            </ul>
+                            <div className="team-info-header">
+                                <h3>Team Members</h3>
+                                <button 
+                                    className="close-button-text"
+                                    onClick={handleTeamInfoClick}
+                                >
+                                    ×
+                                </button>
+                            </div>
+                            <div className="team-cards">
+                                <div className="team-card">
+                                    <img src={assets.user_icon} alt="Profile" />
+                                    <div className="team-card-content">
+                                        <h4>Madvith</h4>
+                                        <a href="https://github.com/Madvith-d" target="_blank" rel="noopener noreferrer">
+                                            @Madvith-d
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="team-card">
+                                    <img src={assets.user_icon} alt="Profile" />
+                                    <div className="team-card-content">
+                                        <h4>Ronit Pai</h4>
+                                        <a href="https://github.com/Ronit-Pai" target="_blank" rel="noopener noreferrer">
+                                            @Ronit-Pai
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="team-card">
+                                    <img src={assets.user_icon} alt="Profile" />
+                                    <div className="team-card-content">
+                                        <h4>Priaanka</h4>
+                                        <a href="https://github.com/mpriaanka" target="_blank" rel="noopener noreferrer">
+                                            @mpriaanka
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="team-card">
+                                    <img src={assets.user_icon} alt="Profile" />
+                                    <div className="team-card-content">
+                                        <h4>Ashil</h4>
+                                        <a href="https://github.com/Ashil07" target="_blank" rel="noopener noreferrer">
+                                            @Ashil07
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     )}
                 </div>

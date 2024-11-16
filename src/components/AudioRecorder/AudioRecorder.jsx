@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { assets } from '../../assets/assets';
-import { transcribeAudio } from '../../config/deepgram';
 import './AudioRecorder.css';
+import { transcribeAudio } from '../../config/deepgram';
 
 const AudioRecorder = ({ onTranscriptionComplete }) => {
     const [isRecording, setIsRecording] = useState(false);
