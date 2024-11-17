@@ -1,112 +1,344 @@
-# Kaira AI - Mental Wellbeing Chatbot
+<div align="left" style="position: relative;">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>KAIRA-AI</h1>
+<p align="left">
+	<em><code>â¯ REPLACE-ME</code></em>
+</p>
+<p align="left">
+	<img src="https://img.shields.io/github/license/Ronit-Pai/Kaira-AI?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/Ronit-Pai/Kaira-AI?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/Ronit-Pai/Kaira-AI?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/Ronit-Pai/Kaira-AI?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="left"><!-- default option, no dependency badges. -->
+</p>
+<p align="left">
+	<!-- default option, no dependency badges. -->
+</p>
+</div>
+<br clear="right">
 
-## Project Overview
+##  Table of Contents
 
-Kaira AI is a React-based web application that provides a mental wellbeing chatbot interface. The application uses the Gemini AI model from Google to generate responses to user queries, offering mental health support and advice.
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Project Structure](#-project-structure)
+  - [ Project Index](#-project-index)
+- [ Getting Started](#-getting-started)
+  - [ Prerequisites](#-prerequisites)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+  - [ Testing](#-testing)
+- [ Project Roadmap](#-project-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
 
-## Project Structure
+---
 
-The project is built using React and Vite, with the following main components:
+##  Overview
 
-- `src/`
-  - `components/`
-    - `Main/`
-      - `Main.jsx`
-      - `Main.css`
-    - `Sidebar/`
-      - `Sidebar.jsx`
-      - `Sidebar.css`
-  - `assets/`
-    - `assets.js`
-    - (various icon images)
-  - `config/`
-    - `gemini.js`
-    - `aiConfig.js`
-  - `context/`
-    - `Context.jsx`
-  - `App.jsx`
-  - `main.jsx`
-  - `index.css`
+<code>â¯ REPLACE-ME</code>
 
-## Key Components and Their Functions
+---
 
-### 1. Main.jsx
+##  Features
 
-This is the primary component of the application. It renders the chat interface, including:
-- The navigation bar with the Kaira AI logo
-- The chat history display
-- The input area for user prompts
-- Suggestion cards for common mental health issues
+<code>â¯ REPLACE-ME</code>
 
-Key features:
-- Displays chat history using the `chatHistory` state from the Context
-- Renders a loading animation when waiting for AI responses
-- Provides an input field for user prompts
-- Offers quick-access cards for common mental health topics
+---
 
-### 2. Sidebar.jsx
+##  Project Structure
 
-This component provides navigation and history functionality:
-- Allows users to start a new chat
-- Displays recent chat history
-- Provides access to help, activity, and settings (functionality not implemented)
+```sh
+â””â”€â”€ Kaira-AI/
+    â”œâ”€â”€ README.md
+    â”œâ”€â”€ index.html
+    â”œâ”€â”€ package-lock.json
+    â”œâ”€â”€ package.json
+    â”œâ”€â”€ public
+    â”‚   â””â”€â”€ vite.svg
+    â”œâ”€â”€ src
+    â”‚   â”œâ”€â”€ App.jsx
+    â”‚   â”œâ”€â”€ assets
+    â”‚   â”œâ”€â”€ components
+    â”‚   â”œâ”€â”€ config
+    â”‚   â”œâ”€â”€ context
+    â”‚   â”œâ”€â”€ index.css
+    â”‚   â””â”€â”€ main.jsx
+    â””â”€â”€ vite.config.js
+```
 
-### 3. Context.jsx
 
-This file sets up the React Context API to manage the application's state. It includes:
-- State management for chat history, user input, and AI responses
-- The `onSent` function that handles sending user prompts to the AI and processing responses
-- Formatting functions for AI responses
+###  Project Index
+<details open>
+	<summary><b><code>KAIRA-AI/</code></b></summary>
+	<details> <!-- __root__ Submodule -->
+		<summary><b>__root__</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/package-lock.json'>package-lock.json</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/vite.config.js'>vite.config.js</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/package.json'>package.json</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/index.html'>index.html</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details> <!-- src Submodule -->
+		<summary><b>src</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/index.css'>index.css</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/App.jsx'>App.jsx</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/main.jsx'>main.jsx</a></b></td>
+				<td><code>â¯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+			<details>
+				<summary><b>config</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/config/aiConfig.js'>aiConfig.js</a></b></td>
+						<td><code>â¯ REPLACE-ME</code></td>
+					</tr>
+					<tr>
+						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/config/gemini.js'>gemini.js</a></b></td>
+						<td><code>â¯ REPLACE-ME</code></td>
+					</tr>
+					<tr>
+						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/config/deepgram.js'>deepgram.js</a></b></td>
+						<td><code>â¯ REPLACE-ME</code></td>
+					</tr>
+					</table>
+				</blockquote>
+			</details>
+			<details>
+				<summary><b>components</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/AIResponse.jsx'>AIResponse.jsx</a></b></td>
+						<td><code>â¯ REPLACE-ME</code></td>
+					</tr>
+					</table>
+					<details>
+						<summary><b>AudioRecorder</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/AudioRecorder/AudioRecorder.css'>AudioRecorder.css</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/AudioRecorder/AudioRecorder.jsx'>AudioRecorder.jsx</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>Main</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Main/Main.jsx'>Main.jsx</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Main/Main.css'>Main.css</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>TextToSpeech</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/TextToSpeech/TextToSpeech.jsx'>TextToSpeech.jsx</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/TextToSpeech/TextToSpeech.css'>TextToSpeech.css</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>Sidebar</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Sidebar/Sidebar.jsx'>Sidebar.jsx</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Sidebar/Sidebar.css'>Sidebar.css</a></b></td>
+								<td><code>â¯ REPLACE-ME</code></td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+				</blockquote>
+			</details>
+			<details>
+				<summary><b>context</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/context/Context.jsx'>Context.jsx</a></b></td>
+						<td><code>â¯ REPLACE-ME</code></td>
+					</tr>
+					</table>
+				</blockquote>
+			</details>
+		</blockquote>
+	</details>
+</details>
 
-### 4. gemini.js
+---
+##  Getting Started
 
-This file contains the configuration and implementation for interacting with the Gemini AI model:
-- Sets up the AI model configuration
-- Implements the `runChat` function that sends prompts to the AI and receives responses
+###  Prerequisites
 
-### 5. assets.js
+Before getting started with Kaira-AI, ensure your runtime environment meets the following requirements:
 
-This file imports and exports all the icon images used in the application, making them easily accessible throughout the project.
+- **Programming Language:** JavaScript
+- **Package Manager:** Npm
 
-### 6. App.jsx
 
-The main application component that renders the Sidebar and Main components.
+###  Installation
 
-### 7. main.jsx
+Install Kaira-AI using one of the following methods:
 
-The entry point of the React application, which renders the App component wrapped in the ContextProvider.
+**Build from source:**
 
-## How It Works
+1. Clone the Kaira-AI repository:
+```sh
+â¯ git clone https://github.com/Ronit-Pai/Kaira-AI
+```
 
-1. When a user enters a prompt and sends it:
-   - The `onSent` function in `Context.jsx` is triggered
-   - It sends the prompt to the Gemini AI using the `runChat` function from `gemini.js`
-   - The response is formatted and added to the chat history
+2. Navigate to the project directory:
+```sh
+â¯ cd Kaira-AI
+```
 
-2. The Main component continuously renders the updated chat history, showing both user prompts and AI responses.
+3. Install the project dependencies:
 
-3. The Sidebar component allows users to start new chats and access their chat history.
 
-## CSS Styling
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
-- `Main.css` and `Sidebar.css` provide the styling for the main interface and sidebar respectively.
-- `index.css` contains global styles and animations.
+```sh
+â¯ npm install
+```
 
-## Setup and Running the Project
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Set up your Gemini AI API key in `src/config/gemini.js`
-4. Run the development server: `npm run dev`
 
-## Contributing
 
-Contributions to improve Kaira AI are welcome. Please follow these steps:
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-branch-name`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature-branch-name`
-5. Submit a pull request
+###  Usage
+Run Kaira-AI using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+â¯ npm start
+```
+
+
+###  Testing
+Run the test suite using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+â¯ npm test
+```
+
+
+---
+##  Project Roadmap
+
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
+
+---
+
+##  Contributing
+
+- **ðŸ’¬ [Join the Discussions](https://github.com/Ronit-Pai/Kaira-AI/discussions)**: Share your insights, provide feedback, or ask questions.
+- **ðŸ› [Report Issues](https://github.com/Ronit-Pai/Kaira-AI/issues)**: Submit bugs found or log feature requests for the `Kaira-AI` project.
+- **ðŸ’¡ [Submit Pull Requests](https://github.com/Ronit-Pai/Kaira-AI/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/Ronit-Pai/Kaira-AI
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/Ronit-Pai/Kaira-AI/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=Ronit-Pai/Kaira-AI">
+   </a>
+</p>
+</details>
+
+---
+
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+##  Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+---
+
 
 
 ## Acknowledgments
