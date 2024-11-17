@@ -1,19 +1,16 @@
 <div align="left" style="position: relative;">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+	
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="20%" style="margin: -20px 0 0 20px;">
 <h1>KAIRA-AI</h1>
 <p align="left">
-	<em><code>â¯ REPLACE-ME</code></em>
-</p>
-<p align="left">
-	<img src="https://img.shields.io/github/license/Ronit-Pai/Kaira-AI?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/Ronit-Pai/Kaira-AI?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/Ronit-Pai/Kaira-AI?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/Ronit-Pai/Kaira-AI?style=default&color=0080ff" alt="repo-language-count">
 </p>
-<p align="left"><!-- default option, no dependency badges. -->
+<p align="left">
 </p>
 <p align="left">
-	<!-- default option, no dependency badges. -->
+	
 </p>
 </div>
 <br clear="right">
@@ -31,86 +28,82 @@
   - [ Testing](#-testing)
 - [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
-- [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
-
-<code>â¯ REPLACE-ME</code>
+Kaira-AI: Mental Health Chatbot
+Kaira-AI is a mental health support chatbot designed to provide users with compassionate, confidential, and accessible assistance for mental well-being. Built using advanced AI technologies, Kaira offers a safe space for users to talk, express their feelings, and receive guidance on managing stress, anxiety, depression, and other emotional challenges.
+Kaira is not a replacement for professional therapy but aims to provide immediate support and resources, helping users manage their mental health in a private and empathetic manner.
 
 ---
 
 ##  Features
+Conversational Support: Kaira engages in open-ended conversations, offering a friendly, non-judgmental environment for users to talk about their mental health concerns.
 
-<code>â¯ REPLACE-ME</code>
+Speech-to-Text (STT): Users can speak directly to Kaira, and it will transcribe their speech into text for real-time processing and response. This feature enables hands-free interaction for users who prefer talking over typing.
+
+Text-to-Speech (TTS): Kaira can also speak its responses aloud, providing a voice for the chatbot that allows users to listen to the support and guidance rather than reading it. This feature makes Kaira more accessible and interactive.
 
 ---
 
 ##  Project Structure
 
 ```sh
-â””â”€â”€ Kaira-AI/
-    â”œâ”€â”€ README.md
-    â”œâ”€â”€ index.html
-    â”œâ”€â”€ package-lock.json
-    â”œâ”€â”€ package.json
-    â”œâ”€â”€ public
-    â”‚   â””â”€â”€ vite.svg
-    â”œâ”€â”€ src
-    â”‚   â”œâ”€â”€ App.jsx
-    â”‚   â”œâ”€â”€ assets
-    â”‚   â”œâ”€â”€ components
-    â”‚   â”œâ”€â”€ config
-    â”‚   â”œâ”€â”€ context
-    â”‚   â”œâ”€â”€ index.css
-    â”‚   â””â”€â”€ main.jsx
-    â””â”€â”€ vite.config.js
+ Kaira-AI/
+    README.md
+    index.html
+    package-lock.json
+    package.json
+    public
+       vite.svg
+    src
+      App.jsx
+      assets
+      components
+      config
+      context
+      index.css
+      main.jsx
+      vite.config.js
 ```
 
 
 ###  Project Index
 <details open>
 	<summary><b><code>KAIRA-AI/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
+	<details> 
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/vite.config.js'>vite.config.js</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/vite.config.js'>vite.config.js</a></b></td>			
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/package.json'>package.json</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/package.json'>package.json</a></b></td>		
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/index.html'>index.html</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
 	</details>
-	<details> <!-- src Submodule -->
+	<details> 
 		<summary><b>src</b></summary>
 		<blockquote>
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/index.css'>index.css</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/App.jsx'>App.jsx</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/main.jsx'>main.jsx</a></b></td>
-				<td><code>â¯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 			<details>
@@ -119,15 +112,12 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/config/aiConfig.js'>aiConfig.js</a></b></td>
-						<td><code>â¯ REPLACE-ME</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/config/gemini.js'>gemini.js</a></b></td>
-						<td><code>â¯ REPLACE-ME</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/config/deepgram.js'>deepgram.js</a></b></td>
-						<td><code>â¯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -138,7 +128,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/AIResponse.jsx'>AIResponse.jsx</a></b></td>
-						<td><code>â¯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 					<details>
@@ -147,11 +136,9 @@
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/AudioRecorder/AudioRecorder.css'>AudioRecorder.css</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/AudioRecorder/AudioRecorder.jsx'>AudioRecorder.jsx</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							</table>
 						</blockquote>
@@ -162,11 +149,9 @@
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Main/Main.jsx'>Main.jsx</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Main/Main.css'>Main.css</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							</table>
 						</blockquote>
@@ -177,11 +162,9 @@
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/TextToSpeech/TextToSpeech.jsx'>TextToSpeech.jsx</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/TextToSpeech/TextToSpeech.css'>TextToSpeech.css</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							</table>
 						</blockquote>
@@ -192,11 +175,9 @@
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Sidebar/Sidebar.jsx'>Sidebar.jsx</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/components/Sidebar/Sidebar.css'>Sidebar.css</a></b></td>
-								<td><code>â¯ REPLACE-ME</code></td>
 							</tr>
 							</table>
 						</blockquote>
@@ -209,7 +190,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Ronit-Pai/Kaira-AI/blob/master/src/context/Context.jsx'>Context.jsx</a></b></td>
-						<td><code>â¯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -237,12 +217,12 @@ Install Kaira-AI using one of the following methods:
 
 1. Clone the Kaira-AI repository:
 ```sh
-â¯ git clone https://github.com/Ronit-Pai/Kaira-AI
+ git clone https://github.com/Ronit-Pai/Kaira-AI
 ```
 
 2. Navigate to the project directory:
 ```sh
-â¯ cd Kaira-AI
+ cd Kaira-AI
 ```
 
 3. Install the project dependencies:
@@ -251,7 +231,7 @@ Install Kaira-AI using one of the following methods:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-â¯ npm install
+ npm install
 ```
 
 
@@ -262,7 +242,7 @@ Run Kaira-AI using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-â¯ npm start
+ npm start
 ```
 
 
@@ -271,24 +251,13 @@ Run the test suite using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-â¯ npm test
+ npm test
 ```
-
-
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
----
-
 ##  Contributing
 
-- **ðŸ’¬ [Join the Discussions](https://github.com/Ronit-Pai/Kaira-AI/discussions)**: Share your insights, provide feedback, or ask questions.
-- **ðŸ› [Report Issues](https://github.com/Ronit-Pai/Kaira-AI/issues)**: Submit bugs found or log feature requests for the `Kaira-AI` project.
-- **ðŸ’¡ [Submit Pull Requests](https://github.com/Ronit-Pai/Kaira-AI/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+-  [Join the Discussions](https://github.com/Ronit-Pai/Kaira-AI/discussions)**: Share your insights, provide feedback, or ask questions.
+-  [Report Issues](https://github.com/Ronit-Pai/Kaira-AI/issues)**: Submit bugs found or log feature requests for the `Kaira-AI` project.
+-  [Submit Pull Requests](https://github.com/Ronit-Pai/Kaira-AI/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -325,26 +294,11 @@ Run the test suite using the following command:
 </p>
 </details>
 
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
----
-
-
-
 ## Acknowledgments
 
 - This project uses the Gemini AI model from Google
 - Icons and assets from official gemini site
+- This project uses the Deepgram API for the STT and TSS
 
 ## Additional Information
 
