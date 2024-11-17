@@ -1,6 +1,6 @@
 <div align="left" style="position: relative;">
 	
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="20%" style="margin: -20px 0 0 20px;">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="5%" style="margin: -20px 0 0 20px;">
 <h1>KAIRA-AI</h1>
 <p align="left">
 	<img src="https://img.shields.io/github/last-commit/Ronit-Pai/Kaira-AI?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
