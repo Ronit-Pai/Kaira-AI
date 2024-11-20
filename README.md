@@ -46,6 +46,8 @@ Speech-to-Text (STT): Users can speak directly to Kaira, and it will transcribe 
 
 Text-to-Speech (TTS): Kaira can also speak its responses aloud, providing a voice for the chatbot that allows users to listen to the support and guidance rather than reading it. This feature makes Kaira more accessible and interactive.
 
+Also suggest some fun activities based on user interaction. 
+
 ---
 
 ##  Project Structure
@@ -305,3 +307,4 @@ Run the test suite using the following command:
 - This project is being built for a hackathon conducted by Finite Loop Club , A coding club of NMAMIT.
 - Name of the Hackathon is HACKLOOP(2024).
 - Stay tuned for further Updates regarding our progress in the HACKLOOP.
+- (promotion/test video to be attached)
