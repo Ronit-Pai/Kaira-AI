@@ -307,4 +307,3 @@ Run the test suite using the following command:
 - This project is being built for a hackathon conducted by Finite Loop Club , A coding club of NMAMIT.
 - Name of the Hackathon is HACKLOOP(2024).
 - Stay tuned for further Updates regarding our progress in the HACKLOOP.
-- (promotion/test video to be attached)
